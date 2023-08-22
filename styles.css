@@ -1,0 +1,83 @@
+/* This document contains the styles for the profile.html document */
+/* Written by Steven Doyle, modified 03.09.2021 */
+
+/* heading 1 */
+h1 {
+color: black;
+text-align: center;
+height: 40px;
+font-style: oblique;
+font-variant-caps: small-caps;
+border-bottom: 1px solid black;
+}
+
+/* generic image */
+img {
+width: 100%;
+height: auto;
+}
+
+/* generic paragraph */
+p {
+color: black;
+font-style: normal;
+}
+
+/* column for about section */
+.column {
+float: left;
+width: 48%;
+display: table-cell;
+padding: 5px;
+border-bottom: 1px solid black;
+}
+
+/* row for about section */
+.row {
+display: flex;
+length: auto;
+}
+
+/* heading 2 */
+h2 {
+color: black;
+text-align: center;
+height: 20px;
+font-style: oblique;
+}
+
+/* table for selected works section */
+table {
+width: 100%;
+align: center;
+}
+
+/* table cell formatting */
+td, th {
+padding: 2 px;
+text-align: left;
+}
+
+/* heading 3 */
+h3 {
+color: blue;
+height : 15px;
+font-style: monaco, monospace;
+}
+
+/* unordered list without bullets for selected works section */
+ul.no-bullets {
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-style: normal;
+}
+
+/* footer */
+footer {
+background-color: #44B23A;
+}
+
+
+
+
